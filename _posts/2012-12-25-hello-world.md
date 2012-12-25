@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Hello, world!
+title: 您好，世界！
 ---
-Hello, world!
+您好，世界！
