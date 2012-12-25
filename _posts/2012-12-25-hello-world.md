@@ -1,6 +1,5 @@
 ---
-layout: post
-title: Hello, world
+layout: default
+title: Hello, world!
 ---
-
 Hello, world!
