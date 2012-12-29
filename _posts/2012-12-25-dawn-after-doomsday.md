@@ -5,7 +5,7 @@ title: 末日之后，黎明在前
 
 如我们所料，末日并未到来，新的黎明也就顺理成章。六年低迷，却带来意料外的天大惊喜，让我克服了曾经畏为天堑的障碍，于是一切皆有可能。2011年从泥沼中抽身上岸，2012年休养身心积蓄力量，而新的2013年，是时候迎接黎明往前走了。
 
-过去这一年，是走向开阔之年。磨房的行走逐渐开花结果，在生活各方面产生积极影响。年初积极参加[成都Open Party](http://chengdu-open-party.org)，认识了[@JeffXiong](http://weibo.com/gigix)、[@Joey_Yin](http://weibo.com/joeyyin)、[@_Lite_](http://weibo.com/209998588)等既富理想主义色彩，又极具实干精神的IT人。年中又因缘际会开始组织[重庆Open Party](http://chongqing-open-party.org)，同时通过[@TEDxHongyadong](http://weibo.com/tedxhongyadong)结识了长锟、祯辉等一大帮优秀的青年才俊，给我以很大触动。
+过去这一年，是走向开阔之年。磨房的行走逐渐开花结果，在生活各方面产生积极影响。年初积极参加[成都Open Party](http://chengdu-open-party.org)，认识了[@JeffXiong](http://weibo.com/gigix)、[@Joey_Yin](http://weibo.com/joeyyin)、[@\_Lite\_](http://weibo.com/209998588)等既富理想主义色彩，又极具实干精神的IT人。年中又因缘际会开始组织[重庆Open Party](http://chongqing-open-party.org)，同时通过[@TEDxHongyadong](http://weibo.com/tedxhongyadong)结识了长锟、祯辉等一大帮优秀的青年才俊，给我以很大触动。
 
 这一年，在成渝两地纠结许多。年初，没睡好觉丢掉成都TW的机会；年末，又身在香港错过IBM。但也都不算遗憾吧，因为各自都有不太满意的地方。养家糊口、个人志趣、价值实现、众多因素，在没想好之前，不宜乱动。
 
