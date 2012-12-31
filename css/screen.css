@@ -31,7 +31,8 @@ h1 {
 }
 
 p {
-  margin: 1em 0;
+  margin: 0;
+  text-indent: 2em;
 }
 
 a {
@@ -141,11 +142,6 @@ ul.posts {
       .site .footer .rss img {
         border: 0;
       }
-
-      .site p {
-        text-indent: 2em;
-      }
-
 
 /*****************************************************************************/
 /*
