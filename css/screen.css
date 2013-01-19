@@ -27,10 +27,6 @@ h1, h2 {
   padding-top: 1em;
 }
 
-p {
-  text-indent: 2em;
-}
-
 a {
   color: #00a;
 }
@@ -116,12 +112,29 @@ ul.posts span {
   color: #aaa;
 }
 
+.site article {
+  clear: left;
+}
+
+.site article p {
+  text-indent: 2em;
+}
+
 .site .footer {
+  clear: left;
   font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
+}
+
+.site .nav .left-btn {
+  float: left;
+}
+
+.site .nav .right-btn {
+  float: right;
 }
 
 .site .footer .contact {

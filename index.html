@@ -1,13 +1,17 @@
 ---
 layout: default
-title: 梦林居
+title: 博文列表
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+      {% assign post_year = post.date | date: '%Y' %}
+      {% assign prev_post_year = post.previous.date | date: '%Y' %}
+      {% if post_year != prev_post_year %}
+      <hr /> {{ prev_post_year }}
+      {% endif %}
+   {% endfor %}
   </ul>
 </div>

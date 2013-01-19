@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>{{ page.title }}</title>
+    <title>{{ page.title | append:' - 梦林居'}}</title>
     <meta name="author" content="Merlin Ran" />
     <link href="http://mindhiking.info/atom.xml" rel="alternate" title="Merlin Ran" type="application/atom+xml" />
     <meta name="readability-verification" content="QCzSs992GxmRYRKVpPeZ6LE2tS8aYKxsSSQKV8YM"/>
@@ -13,9 +13,6 @@
     <!-- Homepage CSS -->
     <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
 
-    <!-- Typekit -->
-    <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
 
   <body>
@@ -26,9 +23,32 @@
         <a class="extra" href="/">home</a>
       </div>
 
-      <h1>{{ post.title }}</h1>  
-      {{ content }}
+      <h1>{{ page.title }}</h1>  
 
+      <div class="nav">
+        {% if page.previous %}
+        <a class="left-btn" href={{page.previous.url}}> 更早一篇 </a>
+        {% endif %}
+
+        {% if page.next %}
+        <a class="right-btn" href={{page.next.url}}> 更近一篇 </a>
+        {% endif %}
+      </div>
+
+      <article>
+      {{ content }}
+      </article>
+
+      <div class="nav">
+        {% if page.previous %}
+        <a class="left-btn" href={{page.previous.url}}> 更早一篇 </a>
+        {% endif %}
+
+        {% if page.next %}
+        <a class="right-btn" href={{page.next.url}}> 更近一篇 </a>
+        {% endif %}
+      </div>
+     
       <div class="footer">
         <div class="contact">
           <p>
