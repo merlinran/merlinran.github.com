@@ -112,21 +112,26 @@ ul.posts span {
   color: #aaa;
 }
 
-.site article {
-  clear: left;
+.site .article {
+  clear: both;
 }
 
-.site article p {
+.site .article p {
   text-indent: 2em;
 }
 
 .site .footer {
-  clear: left;
+  clear: both;
   font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
+}
+
+.site .nav {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .site .nav .left-btn {
