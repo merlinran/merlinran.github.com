@@ -120,6 +120,10 @@ ul.posts span {
   text-indent: 2em;
 }
 
+.site .article li > p {
+  text-indent: 0;
+}
+
 .site .footer {
   clear: both;
   font-size: 80%;
