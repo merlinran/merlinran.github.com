@@ -9,18 +9,35 @@ title: 存储大观
   + SAS
 
 + RAID
-  + RAID 0, concated or stripped
-  + RAID 1, mirror
-  + RAID 1+0, stripped mirror
-  + RAID 3, XOR protection, dedicated check disk
-  + RAID 5, XOR protection, dedicated check disk
-  + RAID 6, XOR + Polynomial
+  + RAID 0, 将多块磁盘条带化，性能略有提高，可靠性降低。
+  + RAID 1, 两块磁盘镜像，可靠性提高很多，性能与单块盘持平。
+  + RAID 1+0, 避免RAID 1只有两块盘的容量限制。
+  + RAID 3, 采用异或运算建立专用的校验盘，可靠性略有提高，校验盘成为性能瓶颈。
+  + RAID 5, 对RAID 3的改进，校验块分散在每块盘上。
+  + RAID 6, RAID 5基础上增加多项式校验，以提高可靠性。运算较复杂，通常用于虚拟磁带库，归档等IOPS不高的场合。
 
 + SAN (Storage Area Network，存储区域网络)
 
+如果数量有限的高性能服务器，需要高速访问自己专用的数据，采用SAN网络就比较合适。与每台服务器直连数块硬盘相比，SAN可以提高数据的可靠性，减少空间浪费，也便于空间的重新分配和同步。
+
+SAN由以下几个部件构成。
+
+  + 磁盘阵列
+  + 光纤通道网络
+  + HBA卡
+  + 磁带库
+
 + NAS (Network Attached Storage，网络附加存储)
 
+如果有大量终端，需要并发访问大量的文件，适合采用NAS。网络访问的方式，配置简单。
+
+  + NFS
+  + CIFS
+  + FTP
+
 + CAS (Content Addressable Storage, 内容寻址存储)
+
+对于某些特别的应用，要求根据索引在大量数据中快速访问到内容。比如医院的X光片，图像文件等等，计算出唯一的键值，只要提供这个值，就能迅速提取文件。
 
 + Cloud Storage，云存储
 
