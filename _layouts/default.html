@@ -39,6 +39,15 @@
       {{ content }}
       </div>
 
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          (function() {
+             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+             dsq.src = 'http://merlinran.disqus.com/embed.js';
+             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+
       <div class="nav">
         {% if page.previous %}
         <a class="left-btn" href={{page.previous.url}}> 更早一篇 </a>
@@ -75,6 +84,7 @@
     <div class="weibo" style="position: absolute; top: 0; left: 0; border: 0;" >
       <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=1&ptype=1&speed=0&skin=1&isTitle=0&noborder=1&isWeibo=1&isFans=0&uid=1685862880&verifier=f33b37d3&dpc=1"></iframe>
     </div> -->
+
 
     <a href="http://github.com/merlinran"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
 

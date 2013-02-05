@@ -130,11 +130,14 @@ ul.posts span {
 }
 
 .site .nav .left-btn {
+  width: 200px;
   float: left;
 }
 
 .site .nav .right-btn {
+  width: 200px;
   float: right;
+  text-align: right;
 }
 
 .site .footer .contact {
