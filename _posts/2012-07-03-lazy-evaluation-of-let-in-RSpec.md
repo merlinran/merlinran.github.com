@@ -5,23 +5,23 @@ title: RSpec中let的惰性求值
 刚刚掉坑里了。上代码:
 
 {% highlight ruby %}
-    require 'spec_helper'  
-      
-    describe User do  
-      describe '#send_message' do  
-        context 'when user is under their subscription limit' do  
-          let(:john) { User.create! }  
-          let(:sam) { User.create! }  
-          let(:msg) { john.send_message(title: 'foo',  
-                        text: 'bar',  
-                        recipient: sam) }  
-      
-          it 'sends a message to another user' do  
-            sam.received_messages.should == [msg]  
-          end  
-        end  
+require 'spec_helper'  
+  
+describe User do  
+  describe '#send_message' do  
+    context 'when user is under their subscription limit' do  
+      let(:john) { User.create! }  
+      let(:sam) { User.create! }  
+      let(:msg) { john.send_message(title: 'foo',  
+                    text: 'bar',  
+                    recipient: sam) }  
+  
+      it 'sends a message to another user' do  
+        sam.received_messages.should == [msg]  
       end  
-    end
+    end  
+  end  
+end
 {% endhighlight %}
 
 RSpec报错
