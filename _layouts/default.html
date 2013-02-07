@@ -25,40 +25,7 @@
 
       <h1>{{ page.title }}</h1>  
 
-      <div class="nav">
-        {% if page.previous %}
-        <a class="left-btn" href={{page.previous.url}}> 更早一篇 </a>
-        {% endif %}
-
-        {% if page.next %}
-        <a class="right-btn" href={{page.next.url}}> 更近一篇 </a>
-        {% endif %}
-      </div>
-
-      <div class="article">
-      {{ content }}
-      </div>
-
-      <div id="disqus_thread"></div>
-      <script type="text/javascript">
-          (function() {
-             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-             dsq.src = 'http://merlinran.disqus.com/embed.js';
-             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          })();
-      </script>
-
-      <div class="nav">
-        {% if page.previous %}
-        <a class="left-btn" href={{page.previous.url}}> 更早一篇 </a>
-        {% endif %}
-
-        {% if page.next %}
-        <a class="right-btn" href={{page.next.url}}> 更近一篇 </a>
-        {% endif %}
-      </div>
-     
-      <div class="footer">
+     <div class="footer">
         <div class="contact">
           <p>
             Merlin Ran<br />

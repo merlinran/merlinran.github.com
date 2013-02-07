@@ -4,7 +4,7 @@ title: RSpec中let的惰性求值
 ---
 刚刚掉坑里了。上代码:
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 require 'spec_helper'  
   
 describe User do  
@@ -26,7 +26,7 @@ end
 
 RSpec报错
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 Failures:  
   
   1) User#send_message when user is under their subscription limit sends a message to another user  
