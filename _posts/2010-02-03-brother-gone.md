@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 兄弟走了
 ---
 一起穿着开裆裤长大的兄弟，走了。

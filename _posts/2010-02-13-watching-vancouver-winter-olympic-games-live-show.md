@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 观温哥华冬奥会开幕式
 ---
 大年三十，偶然看到冬奥会开幕式，被热情完全吸引了。

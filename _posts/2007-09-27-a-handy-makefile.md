@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: A handy Makefile
 ---
 I wrote it under MingW, that's why my action of clean target is "del" rather than "rm". It's simple and clear, so I don't try to explain it.

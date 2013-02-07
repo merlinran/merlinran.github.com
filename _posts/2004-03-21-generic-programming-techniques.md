@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 翻译：泛型编程技术
 ---
 作者：[David Abrahams](http://daveabrahams.com/)

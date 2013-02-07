@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: A regex to form java bean
 ---
 First declare sets of member variables like below:

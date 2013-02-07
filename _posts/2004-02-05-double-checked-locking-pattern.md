@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Double Checked Locking模式
 ---
 该模式由ACE的创建者Doug C. Schimdt提出，在ACE中得到了很广泛的应用。[有专文论述](http://www.cs.wustl.edu/~schmidt/PDF/DC-Locking.pdf)

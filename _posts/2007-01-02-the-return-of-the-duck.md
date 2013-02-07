@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The return of the duck
 ---
 A few days ago, I described [my dilemma about a duck](/2006/12/24/challenged-by-a-duck.html). It has puzzled me more than a week. I went to the loft every morning, to feed it with rice and water. The first day of 2007, I went to visit it as always, but it disappeared! The rice box was empty, so did the the water pot.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 《Justice》视频学习笔记（一）
 ---
 哈佛大学的桑德尔教授真是个强人，把政治哲学这门听起来都足以让人敬而远之的课程讲得如此生动。有人把其[网站](http://www.justiceharvard.org/)的视频[翻译成了中文](http://www.youku.com/playlist_show/id_4220797.html)，我也就有幸瞅一瞅。

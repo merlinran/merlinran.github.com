@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Ruby元编程（一）：Ruby的对象模型
 ---
 ###元编程简介

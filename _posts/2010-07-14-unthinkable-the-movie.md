@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 《Unthinkable》
 ---
 推荐看了这部片子。内容其实不用太较真，但其中人性的较量，实在让人难以忘记。在两个孩子和千百万孩子之间做出选择，实在是件困难的事。

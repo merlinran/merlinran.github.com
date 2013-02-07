@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 从壹基金的命运说开去
 ---
 9月12日，看[柴静对李连杰的专访](http://www.tudou.com/programs/view/MHpx2uLLex0/)，关于壹基金。本来《面对面》约他主要是谈他最近拍的公益电影《海洋天堂》，李连杰自己加上了壹基金的部分。在我看来，整个访问都是为了最后李连杰说的话作铺垫。

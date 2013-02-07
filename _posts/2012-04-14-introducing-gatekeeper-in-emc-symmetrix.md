@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: EMC Symmetrix产品的GateKeeper介绍
 ---
 EMC Symmetrix磁盘阵列的管理有两个途径，一是通过Service Processor，主要由工程师做更换、检查、升级等维护操作，另一种方式就是主机上的各种工具，如symcli、Solution Enabler、EMC Control Center等等。而主机和阵列的通讯，只能通过数据访问的链路，如Fibre Channel或者iSCSI来完成，主机向LUN发起一些特殊的SCSI命令，就实现了管理的功能。

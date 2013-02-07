@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: RSpec中let的惰性求值
 ---
 刚刚掉坑里了。上代码:

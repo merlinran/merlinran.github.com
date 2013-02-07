@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 有些感想
 ---
 最近有两个新闻人物，一个叫孙伟铭，一个叫张海超。

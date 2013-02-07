@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 末日之后，黎明在前
 ---
 

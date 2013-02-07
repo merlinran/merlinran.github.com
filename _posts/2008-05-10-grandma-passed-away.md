@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 惊闻奶奶去世
 ---
 周六正在加班中，妈妈来电，告知奶奶，我养父的母亲，刚刚过世。

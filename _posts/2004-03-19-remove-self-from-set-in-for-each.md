@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 在for_each中调用的方法如何将自己从集合中移除
 ---
     std::for_each(HookSet_.begin(), HookSet_.end(), CallHook(addr, data, len));

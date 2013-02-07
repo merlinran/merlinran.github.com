@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 兄弟
 ---
 > *应Gabby之[《岁月无声》](http://blog.sina.com.cn/s/blog_63c6cc7c0100p6nv.html)而作。*

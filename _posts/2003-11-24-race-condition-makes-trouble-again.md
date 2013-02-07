@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 又是race condition惹的祸
 ---
 困扰了我几天的BUG，终于发现了。原来是有多个线程并发访问同一个socket连接对象，引起在发送文件时产生race condition。加了一个锁之后，问题迎刃而解。

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Ruby元编程（二）：方法的动态调用和定义
 ---
 承上篇，[Ruby的对象模型](/2012/08/10/ruby-meta-programming-I-object-model.html)。

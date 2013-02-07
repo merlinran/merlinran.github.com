@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 搭建Agile Web Development with Rails (4th edition)的学习环境
 ---
 该书以Rails 3.0.0为基准，建立一致的开发环境有助于避免一些奇奇怪怪的问题打击学习的信心。

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 心在，梦在
 ---
 在公司内网闲逛，无意中看到了近期Simon给大家做的Lecture的幻灯片，题目叫做The Five Witchcrafts of Google（Google五件宝）。看后的感觉，套用Simon的口头禅，真是very very impressive。他费尽心血，搜罗众多Googler的长篇大论抑或只言片语，给大家呈现了这么一张全面的Google技术地图。未能当场聆听，真是平生一憾。突然明白为什么我们这个产品要Start from scratch，因为只有这样才能把控制权牢牢掌控在自己手中；过于追求重用，反倒束缚了自己的手脚。Google的GFS、MapReduce、BigTable，以及定制的硬件，无不是为了将计算能力发挥至极致。我们的目的，与之也有几分相似。

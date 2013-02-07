@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 独走麦径看海记(draft)
 ---
 

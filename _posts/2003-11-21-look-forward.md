@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 世界真大，须当未雨绸缪
 ---
 这两天因为捉虫的缘故，对单元测试的重要性更明白一点了。到处找测试框架。从CppUnit到CxxTest再到boost.test，看到了不少的东西。

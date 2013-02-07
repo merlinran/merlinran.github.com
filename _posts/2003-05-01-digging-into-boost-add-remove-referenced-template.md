@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Digging into Boost：在 VC7 中如何实作添加/去除reference的template？
 ---
 之所以对这个感兴趣，主要是为了回答一篇[同名帖子](http://expert.csdn.net/Expert/topic/1704/1704020.xml?temp=.1142847)。

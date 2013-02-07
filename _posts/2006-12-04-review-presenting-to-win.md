@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Review Presenting To Win
 ---
 This is a book praised by so many brilliant people. The main purpose is to teach executives how to plan, prepare, and act their speech, especially company's IPO road show.

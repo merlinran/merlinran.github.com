@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 从TurnkeyLinux开始搭建OpenParty应用
 ---
 准备为重庆OpenParty搭建网站，从没接触过Django，按照各方资料捣腾出来了，小记。

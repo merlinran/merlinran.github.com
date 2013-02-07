@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 关于结构化程序设计、OO与设计模式的讨论
 ---
 2006-10-27  22:15:30  Joe Li  Merlin Ran, just do it  我觉得用C++或其他对象特性语言，没有很好的设计模式，简直是误用．

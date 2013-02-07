@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 也许我真的不懂
 ---
 也许我真的不懂，如何去抚慰一颗饱受折磨的心。

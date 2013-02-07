@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 祭陈长利
 ---
 今天我终于又站在你的面前，
