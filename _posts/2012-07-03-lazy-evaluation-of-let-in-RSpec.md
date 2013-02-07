@@ -4,6 +4,7 @@ title: RSpec中let的惰性求值
 ---
 刚刚掉坑里了。上代码:
 
+{% highlight ruby %}
     require 'spec_helper'  
       
     describe User do  
@@ -21,6 +22,7 @@ title: RSpec中let的惰性求值
         end  
       end  
     end
+{% endhighlight %}
 
 RSpec报错
 
