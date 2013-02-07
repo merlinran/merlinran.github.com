@@ -8,6 +8,7 @@ title: Digging into Boost：在 VC7 中如何实作添加/去除reference的temp
 
 在[这个文件](http://www.boost.org/boost/type_traits/is_reference.hpp)里看到了它采用的方法。主要部分如下：
 
+{% highlight c++ %}
     namespace detail {
     using ::boost::type_traits::yes_type;    //typedef char yes_type
     using ::boost::type_traits::no_type;     //struct no_type{ char padding[8]; }
@@ -30,11 +31,14 @@ title: Digging into Boost：在 VC7 中如何实作添加/去除reference的temp
     };//namespace detail
 
     BOOST_TT_AUX_BOOL_TRAIT_DEF1(is_reference,T,::boost::detail::is_reference_impl<T>::value)//=====
+{% endhighlight %}
 
 [1]定义了一个函数is_reference_helper1，它以一个wrap<T>为参数，返回一个函数指针，这个指针指向的函数以wrap<T>为参数，返回一个T&。如果未来的编译器支持template typedef的话（一个刚刚才提交给standard committe的proposal），就等价于：
 
+{% highlight c++ %}
     template<class T> typedef T& FUNC(wrap<T>);
     template<class U> FUNC<U>* is_reference_helper1(wrap<U>);
+{% endhighlight %}
 
 参见标准文档8.3.5[9]的最后一个例子（在看时请记住：如果不指定返回值，默认的返回值为int）。
 
@@ -52,19 +56,23 @@ BOOST_NO_INCLASS_MEMBER_INITIALIZATION的定义在[这里](http://www.boost.org/
 
 但VC6同样又不支持integral static const member的in class initialization，所以BOOST用enum来代替，展开后就是：
 
+{% highlight c++ %}
     template <typename T>
         struct is_reference_impl
     {
             enum {value = sizeof(yes_type)==1};
     };
+{% endhighlight %}
 
 在实现中，二者一般可以互换。
 
 BOOST_TT_AUX_BOOL_TRAIT_DEF1（带=====那一行）所做的事比较多，主要是在值与类型之间变换。涉及到MPL库，我水平不够，对它还没有研究。其实如果只考虑这里的实现，只需要写个模板：
 
+{% highlight c++ %}
     template <typename T>is_reference{
               static const bool value = is_reference_impl<T>::value;
     };
+{% endhighlight %}
 
 把对is_reference引用直接转移给 is_reference_impl。enum的处理也类似。
 
@@ -72,6 +80,7 @@ BOOST_TT_AUX_BOOL_TRAIT_DEF1（带=====那一行）所做的事比较多，主�
 
 以下从[http://www.boost.org/boost/type_traits/add_reference.hpp](http://www.boost.org/boost/type_traits/add_reference.hpp)中摘录。注意，是add_reference：
 
+{% highlight c++ %}
     template <bool x>
     struct reference_adder
     {
@@ -99,12 +108,15 @@ BOOST_TT_AUX_BOOL_TRAIT_DEF1（带=====那一行）所做的事比较多，主�
 
         typedef typename result::type type;
     };
+{% endhighlight %}
 
 同样，可以定义：
 
+{% highlight c++ %}
     template<typename T> struct add_reference{
             typedef typename ::boost::detail::add_reference_impl<T>::type type;
     };
+{% endhighlight %}
 
 根据is_reference返回的结果，选择泛化版本或者（全）特化版本的reference_adder。而reference_adder里面又有个内嵌类区分T和T&，这样就绕开了部分特化的障碍。
 
@@ -112,10 +124,13 @@ BOOST_TT_AUX_BOOL_TRAIT_DEF1（带=====那一行）所做的事比较多，主�
 
 那么去除引用怎么实现呢？我们来看看[这个文件](http://www.boost.org/boost/type_traits/remove_reference.hpp)吧：
 
+{% highlight c++ %}
     BOOST_TT_AUX_TYPE_TRAIT_DEF1(remove_reference,T,typename detail::remove_reference_impl<T>::type)
+{% endhighlight %}
 
 把宏展开来：
 
+{% highlight c++ %}
     template <typename T> struct remove_reference{
             typedef typename detail::remove_reference_impl<T>::type type;
     };
@@ -123,12 +138,15 @@ BOOST_TT_AUX_BOOL_TRAIT_DEF1（带=====那一行）所做的事比较多，主�
     namespace detail{
         template <typename T> remove_reference_impl{ typedef T type; };
     };
+{% endhighlight %}
 
 实际上也就是：
 
+{% highlight c++ %}
     template <typename T> struct remove_reference{
             typedef T type;
     };
+{% endhighlight %}
 
 这是什么意思？下面是[http://www.boost.org/libs/type_traits/index.htm#transformations](http://www.boost.org/libs/type_traits/index.htm#transformations)中关于::boost::remove_reference<T>::type的Compiler requirements：
 
@@ -138,8 +156,10 @@ BOOST_TT_AUX_BOOL_TRAIT_DEF1（带=====那一行）所做的事比较多，主�
  
 由此可见，部分特化在type_traits库中扮演了多么重要的角色！如果编译器实现了部分特化，只需要写简单而优雅的代码：
 
+{% highlight c++ %}
     template <typename T> struct remove_reference     { typedef T type; };
     template <typename T> struct remove_reference<T&> { typedef T type; };
+{% endhighlight %}
 
 而实现这样的功能，在没有部分特化的情况下，却做不到！
  
