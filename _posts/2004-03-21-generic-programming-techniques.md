@@ -2,11 +2,12 @@
 layout: default
 title: 翻译：泛型编程技术
 ---
-作者：David Abrahams
+作者：[David Abrahams](http://daveabrahams.com/)
 
-译者：Merlin Ran
+译者：[Merlin Ran](http://mindhiking.info/)
 
-原文： http://www.boost.org/more/generic_programming.html
+原文： [http://www.boost.org/more/generic_programming.html](http://www.boost.org/more/generic_programming.html)
+
 
 摘要：本文大致地介绍一下Boost库中所用到的泛型编程技术
 
