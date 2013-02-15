@@ -21,10 +21,12 @@ Ruby的元编程属于动态元编程，就是编写在__运行时__操纵语言
 
 Ruby采用单根的对象系统，所有东西，比如一个数字，或者字符串，都是对象，类和模块本身也是对象。所有对象的根对象都是Object，在1.9之后，在Object之上又引入了BasicObject，这是一个所谓的白板对象，只有非常少的几个方法。在BasicObject之上生成方法，就不用担心和既有方法重名了。
 
+{% highlight ruby linenos %}
     class MyClass  
     end  
       
     obj = MyClass.new  
+{% endhighlight %}
 
 上面这段最简单的代码，其对象模型见下图，非常清晰明了吧？
 
@@ -34,13 +36,16 @@ Ruby采用单根的对象系统，所有东西，比如一个数字，或者字�
 
 在irb中，通过ancestors这个方法，也能清晰地看到继承关系。
 
+{% highlight ruby linenos %}
     1.9.2-p290 :006 >   obj.class.ancestors  
      => [MyClass, Object, Kernel, BasicObject]  
     1.9.2-p290 :007 > obj.class.class.ancestors  
      => [Class, Module, Object, Kernel, BasicObject]  
+{% endhighlight %}
 
 现在，我们自己定义两个module，再来看看。
 
+{% highlight ruby linenos %}
     module MyModule  
     end  
       
@@ -53,21 +58,26 @@ Ruby采用单根的对象系统，所有东西，比如一个数字，或者字�
     end  
       
     obj = MyClass.new  
+{% endhighlight %}
 
 在mixin时，Ruby会依次为每个module生成一个匿名类，插入继承链上方。因此，这里的AnotherModule就比MyModule后插入链中。
 
+{% highlight ruby linenos %}
     1.9.2-p290 :014 >   obj.class.ancestors  
      => [MyClass, AnotherModule, MyModule, Object, Kernel, BasicObject]  
     1.9.2-p290 :015 > obj.class.class.ancestors  
      => [Class, Module, Object, Kernel, BasicObject]  
+{% endhighlight %}
 
 ###打开类
 
 在Ruby中，定义一个类，其实只是声明作用域。可以在任何地方声明同一个类，甚至Ruby库里的类。第一次见到类定义时，会新建一个Class对象，再之后，就是对这个对象做修改了。比如在任意地方放入以下代码：
 
+{% highlight ruby linenos %}
     class String  
       def my_method { blabla... }  
     end  
+{% endhighlight %}
 
 之后就可以调用"hello, world".my_method了。这种技术，我们称作“打开类”。利用它，可以把第三方的库完美地融入Ruby环境中。
 
