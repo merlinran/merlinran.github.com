@@ -4,7 +4,7 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>梦林居</title>
+ <title></title>
  <link href="http://mindhiking.info/atom.xml" rel="self"/>
  <link href="http://mindhiking.info/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
