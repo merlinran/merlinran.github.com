@@ -12,6 +12,8 @@ title: 重庆OpenParty三月“碧水流樱”小记
 
 ![自我介绍](http://ww4.sinaimg.cn/large/ab84dbacjw1e2ss4x3aifj.jpg "自我介绍")
 
+<embed src="http://player.youku.com/player.php/sid/XNTMxMjU3MjY0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
 接下来是Open Party最独特的部分：拉票和投票。每位话题分享者有半分钟时间，各显所能获取听众支持。听众用手里的选票决定话题的分享顺序。这是保证开放性和活动质量的关键。本次共提交了7个话题，逐一为大家呈现。
 
 获得最多支持的[@walker\_素素](http://weibo.com/1411805935)给大家带来体验活动「成年人的童话故事」。长期以来，我对心理从业者的工作都充满好奇，这次则完全被素素老师的魅力折服。寥寥几句，让整个空间都进入她营造的氛围之中。充满磁性的嗓音和优美的肢体语言，让每个人跟随她的魔法棒，走进自己的心灵深处。直到结束，大家都小心翼翼，生怕碰碎了那个虚幻的空间。
