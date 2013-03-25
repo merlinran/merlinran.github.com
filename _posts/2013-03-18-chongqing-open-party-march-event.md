@@ -8,10 +8,11 @@ title: 重庆OpenParty三月“碧水流樱”小记
 
 这次活动总计有30人左右参加。可能因为地方不好找，晚到的人比较多，期待下次能准时一点。
 
-先到的十余人开始互相介绍，混个脸熟。大家的行业、背景、志趣千差万别，却因为这次聚会有缘相识：心理咨询、管理咨询、作家、艺术家、摄影师、IT男、公益人、学生社团组织者……甚至还有师生在此不期而遇！简单的标签哪里能代表鲜活的人呢？大家都对世界充满好奇，希望不断突破自己的局限。
+先到的十余人开始互相介绍。大家的行业、背景、志趣千差万别，却因为这次聚会有缘相识：心理咨询、管理咨询、作家、艺术家、摄影师、IT男、公益人、学生社团组织者……甚至还有师生在此不期而遇！简单的标签哪里能代表鲜活的人呢？大家都对世界充满好奇，希望不断突破自己的局限。
 
 ![自我介绍](http://ww4.sinaimg.cn/large/ab84dbacjw1e2ss4x3aifj.jpg "自我介绍")
 
+[@昊昊正能君](http://weibo.com/u/1070147187)同学特别为这个环节摄像。虽然本人在里面特别瓜，但犹豫半天还是放上来吧，希望以后能够改进。
 <embed src="http://player.youku.com/player.php/sid/XNTMxMjU3MjY0/v.swf" allowFullScreen="true" quality="high" width="640" height="480" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 
 接下来是Open Party最独特的部分：拉票和投票。每位话题分享者有半分钟时间，各显所能获取听众支持。听众用手里的选票决定话题的分享顺序。这是保证开放性和活动质量的关键。本次共提交了7个话题，逐一为大家呈现。
@@ -28,9 +29,9 @@ title: 重庆OpenParty三月“碧水流樱”小记
 
 ![飞老师的演讲太有范儿了，引来一众粉丝](http://pic.yupoo.com/merlinran/CIEyLLIh/medish.jpg "飞老师的演讲太有范儿了，引来一众粉丝")
 
-[@TEDxHongyadong](http://www.weibo.com/TEDxHongyadong)的团队成员杨东汉，为大家介绍了即将于4月召开的[TEDxHongyadongChange大会](http://www.ted.com/tedx/events/8342)，这场活动已经获得TED执照，作为全球同步的TEDxChange一部分举行。猜一猜，在座的朋友当中，谁届时将有人登上大会的演讲台？
+[@TEDxHongyadong](http://www.weibo.com/TEDxHongyadong)的团队成员杨可汉，为大家介绍了即将于4月召开的[TEDxHongyadongChange大会](http://www.ted.com/tedx/events/8342)，这场活动已经获得TED执照，作为全球同步的TEDxChange一部分举行。猜一猜，在座的朋友当中，谁届时将有人登上大会的演讲台？
 
-![杨东汉介绍TEDxHongyadongChange](http://pic.yupoo.com/merlinran/CIEyO9F3/medish.jpg "杨东汉介绍TEDxHongyadongChange")
+![杨可汉介绍TEDxHongyadongChange](http://pic.yupoo.com/merlinran/CIEyO9F3/medish.jpg "杨可汉介绍TEDxHongyadongChange")
 
 ![看大家听得多认真](http://pic.yupoo.com/merlinran/CIEySXPW/medish.jpg "看大家听得多认真")
 
@@ -38,16 +39,16 @@ title: 重庆OpenParty三月“碧水流樱”小记
 
 ![杨洁羽介绍社会企业的概念和案例](http://pic.yupoo.com/merlinran/CIEyWT1E/medish.jpg "杨洁羽介绍社会企业的概念和案例")
 
-科学文化作家郑军先生带来他的新作[光影两万里:世界科幻影视简史](http://book.douban.com/subject/10544822/)送给咖啡馆，同时给我们介绍了[中国科技文化产业网](http://kejiwenhua.cn/)。郑老师学养深厚，文理兼修，期待以后给我们带来精彩的分享。
+科学文化作家郑军先生带来他的新作[《光影两万里:世界科幻影视简史》](http://book.douban.com/subject/10544822/)送给咖啡馆，同时给我们介绍了[中国科技文化产业网](http://kejiwenhua.cn/)。郑老师学养深厚，文理兼修，期待以后给我们带来精彩的分享。
 
 最后由王东岳放映陈丹青讲述民国史的视频片断，引发了大家展开了热烈的讨论。关于北洋和国民政府，关于教育，关于进步，关于社会边界和自由的定义……讨论一直持续到晚上七点。
 
-看到Open Party从最初的几个人，到现在数十人的热闹场面，话题质量也天壤之别，欣喜自不待言。同时，也有很多事情需要做：
+---
 
-+ 继续创造分享的氛围。只有高质量的内容，才能吸引更多人的持续参与。
+在各方朋友的帮助下，Open Party从最初的几个人，到现在数十人的热闹场面，话题质量也天壤之别，欣喜自不待言。同时，也有很多事情需要做：
 
-+ 社会影响。在话题讨论需要产生持续的行动和影响。
++ 继续提振分享的氛围。只有高质量的内容，才能吸引更多人的持续参与。
 
-+ 建立和发挥网站的功用。
++ 后续影响。话题分享讨论，不能仅仅自娱自乐，需要产生附加的价值，带来持续的影响和行动。
 
-+ 摄影摄像。
++ 从头建设网站。像报名、话题提交、签到、直播等功能，让活动当天更有趣，活动前后也能持续发酵。
