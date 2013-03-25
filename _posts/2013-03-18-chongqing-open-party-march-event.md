@@ -12,7 +12,7 @@ title: 重庆OpenParty三月“碧水流樱”小记
 
 ![自我介绍](http://ww4.sinaimg.cn/large/ab84dbacjw1e2ss4x3aifj.jpg "自我介绍")
 
-<embed src="http://player.youku.com/player.php/sid/XNTMxMjU3MjY0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+<embed src="http://player.youku.com/player.php/sid/XNTMxMjU3MjY0/v.swf" allowFullScreen="true" quality="high" width="640" height="480" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 
 接下来是Open Party最独特的部分：拉票和投票。每位话题分享者有半分钟时间，各显所能获取听众支持。听众用手里的选票决定话题的分享顺序。这是保证开放性和活动质量的关键。本次共提交了7个话题，逐一为大家呈现。
 
