@@ -11,15 +11,28 @@ layout: post
 很多人看书法和绘画，都在看它表现的字或者具体事物。但即使完全不懂汉字的人，也可以欣赏书法之美。因此，作品带给观者的，是线条、结构、色彩、意象这些非实物化的东西。具体表现的是什么，反而不重要了。领会这种开放性，才是欣赏作品的关键。
 
 关于品味，书中最后列出了十二条名言警句：
+
 1. Form follows function（材质、结构都为功能服务，比如古根海姆博物馆的螺旋形展廊）
+
 2. Less is more（极简，最高效的方式解决问题）
+
 3. Less is bore（简单中还是需要点晴之笔）
+
 4. Form expresses function（用外观色彩等直接展现按钮或者产品的功能）
+
 5. Form follows fashion（从流行中寻找灵感）
+
 6. Decorate construction, don't construct decoration（避免无用装饰）
+
 7. Fitness for purpose（你需要的时候，它就在那里，按你预期的方式工作）
+
 8. Color follows function, then fashion（红绿灯、紧急按钮等等）
+
 9. Seek simplicity, but distruct it（剃刀原则？）
+
 10. Truth to materials（忠实材料本身，不要假冒。这个似乎很难，比如时下各种纹理的织物和装饰台面）
+
 11. Form furtures expression（比如音乐厅表现音符和指挥棒的流动）
+
 12. Form follows emotion（美的产品将成为习惯，无设计的产品将被淘汰）
+
