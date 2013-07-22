@@ -1,6 +1,6 @@
 ---
-layout:post
-title:作息时间安排
+title: 作息时间安排
+layout: post
 ---
 **时间表**
 
